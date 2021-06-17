@@ -126,7 +126,7 @@ VehicleTest:
 
 		•Welke technieken je gebruikthebt om tot deze data te komen
 
-		Ik heb [Fact] gebruikt en gewoon de paramiters van elke gemaakte object zelf aangepast 
+		Ik heb Mock gebruikt om de vhicle, policyholder objecten te mocken.
 
 
  - PremiumPaymentAmountYearTest
