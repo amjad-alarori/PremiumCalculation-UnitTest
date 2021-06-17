@@ -6184,11 +6184,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/amjadalarori/RiderProjects/carsurancecalculator/WindesheimAD2021AutoVerzekeringsPremie/UnitTest/UnitTest.csproj",
+      "projectUniqueName": "/Users/amjadalarori/RiderProjects/PremiumCalculation-UnitTest/UnitTest/UnitTest.csproj",
       "projectName": "UnitTest",
-      "projectPath": "/Users/amjadalarori/RiderProjects/carsurancecalculator/WindesheimAD2021AutoVerzekeringsPremie/UnitTest/UnitTest.csproj",
+      "projectPath": "/Users/amjadalarori/RiderProjects/PremiumCalculation-UnitTest/UnitTest/UnitTest.csproj",
       "packagesPath": "/Users/amjadalarori/.nuget/packages/",
-      "outputPath": "/Users/amjadalarori/RiderProjects/carsurancecalculator/WindesheimAD2021AutoVerzekeringsPremie/UnitTest/obj/",
+      "outputPath": "/Users/amjadalarori/RiderProjects/PremiumCalculation-UnitTest/UnitTest/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -6206,8 +6206,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "/Users/amjadalarori/RiderProjects/carsurancecalculator/WindesheimAD2021AutoVerzekeringsPremie/WindesheimAD2021AutoVerzekeringsPremie.csproj": {
-              "projectPath": "/Users/amjadalarori/RiderProjects/carsurancecalculator/WindesheimAD2021AutoVerzekeringsPremie/WindesheimAD2021AutoVerzekeringsPremie.csproj"
+            "/Users/amjadalarori/RiderProjects/PremiumCalculation-UnitTest/WindesheimAD2021AutoVerzekeringsPremie.csproj": {
+              "projectPath": "/Users/amjadalarori/RiderProjects/PremiumCalculation-UnitTest/WindesheimAD2021AutoVerzekeringsPremie.csproj"
             }
           }
         }

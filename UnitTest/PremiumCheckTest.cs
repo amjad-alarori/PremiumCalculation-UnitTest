@@ -59,21 +59,21 @@ namespace WindesheimAD2021AutoVerzekeringsPremie.UnitTest
             
             Assert.Equal(ExpectedValue,premiumCalculation6.PremiumAmountPerYear);
         }
-        
-        
+
+   
         [Fact]
         public void PremiumPaymentAmountMonthTest()
         {
             // Arrange
             var vehicle = new Vehicle(90, 13000, 2011);
-            var policyHolderWA = new PolicyHolder(26, "01-01-2002", 6000, 0);
+            var policyHolder = new PolicyHolder(26, "01-01-2002", 6000, 0);
 
             // Act
-            var premuimWA = new PremiumCalculation(vehicle, policyHolderWA, InsuranceCoverage.WA);
-            var ExpectedValue = Math.Round(premuimWA.PremiumAmountPerYear / 12,2);
+            var premiumCalculationsYear = new Mock<PremiumCalculation>(vehicle, policyHolder, InsuranceCoverage.WA);
+            var Expected = Math.Round(premiumCalculationsYear.Object.PremiumAmountPerYear / 12, 2);
 
             // Assert
-            Assert.Equal(ExpectedValue, premuimWA.PremiumPaymentAmount(PremiumCalculation.PaymentPeriod.MONTH));
+            Assert.Equal(Expected, premiumCalculationsYear.Object.PremiumPaymentAmount(PremiumCalculation.PaymentPeriod.MONTH));
         }
         
         
@@ -91,7 +91,7 @@ namespace WindesheimAD2021AutoVerzekeringsPremie.UnitTest
             // Assert
             Assert.Equal(ExpectedValue, premuimWA.PremiumPaymentAmount(PremiumCalculation.PaymentPeriod.YEAR));
         }
-        
+       
         
         
         [Theory]
